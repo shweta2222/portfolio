@@ -1,6 +1,6 @@
 from django.core.checks import messages
 from django.shortcuts import render
-from shavi.models import Contact
+from .models import Contact
 from django.http import HttpResponse
 
 # Create your views here.
